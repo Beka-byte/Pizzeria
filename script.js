@@ -1,0 +1,18 @@
+var userName = prompt('Введите свое имя');
+console.log(' Мое имя ' + userName);
+var age = prompt('Введите свой возраст');
+console.log(' Мне ' + age);
+var example1 = prompt('Решите пример:35+42=?');
+var sum = 35+42;
+console.log(' Пример1 : 35+42=' + sum + ' Ваш ответ : ' + example1);
+var example2 = prompt('Решите пример:123/35=?');
+var divide = 123/35;
+console.log(' Пример2 : 123/35 = ' + divide + ' Ваш ответ : ' +example2);
+var example3 = prompt('Решите пример:98-59=?');
+var minus = 98-59;
+console.log(' Пример3 : 98-59 = ' + minus + ' Ваш ответ : ' +example3);
+var example4 = prompt('Решите пример:302%50=?');
+var percent = 302%50;
+console.log(' Пример4 : 302%50 = ' + percent + ' Ваш ответ : ' +example4);
+var console = 'Откройте консоль для просмотра';
+alert(console);
